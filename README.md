@@ -1,4 +1,4 @@
-# ems
+# EMS
 
 # This is a basic personnel management system 
 that allows you to search, add, delete, and update employee information. Given the scarcity of available routes. As a result, I added the database parameters to it in controller.js.
