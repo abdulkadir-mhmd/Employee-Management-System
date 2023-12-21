@@ -13,29 +13,29 @@ To Run on your system
 And here it is
 
 # The Dashboard with preview of all employees 
-![dashboard](https://user-images.githubusercontent.com/31370134/63966616-4791aa80-cab9-11e9-8ea5-6746365c8fc7.png)
+![1](https://github.com/abdulkadir-mhmd/Employee-Management-System/assets/92106207/5a1e4055-20d3-46c8-9753-181729912077)
 
 # New Employee can be added by clicking the button
 A modal form fades in and
-![add](https://user-images.githubusercontent.com/31370134/63966634-51b3a900-cab9-11e9-8bde-97eec459fc8e.png)
+![2](https://github.com/abdulkadir-mhmd/Employee-Management-System/assets/92106207/ce1974ae-4a48-475d-80f9-6ce2b2193d29)
 
 # You can even search the employees with their name
 Helps in case of greater number of data
-![search](https://user-images.githubusercontent.com/31370134/63966642-55dfc680-cab9-11e9-9788-175a87438497.png)
+![3](https://github.com/abdulkadir-mhmd/Employee-Management-System/assets/92106207/8ef6f6a8-32ca-433c-b278-e7773dfa6146)
 
 # By clicking on the employee preview, You can see their full details
-![detail](https://user-images.githubusercontent.com/31370134/63966655-5a0be400-cab9-11e9-9278-b6fd78d556d6.png)
+![4](https://github.com/abdulkadir-mhmd/Employee-Management-System/assets/92106207/d07a9734-5b8d-4deb-997e-4dc4321ffbb7)
 
 # You can also update the details
 The form is prefilled
-![update](https://user-images.githubusercontent.com/31370134/63966663-5e380180-cab9-11e9-9c72-88ba43dbc988.png)
+![5](https://github.com/abdulkadir-mhmd/Employee-Management-System/assets/92106207/9f56b2b9-7da1-4cb4-8989-aabbbbfa06fa)
 
 # You can also delete the employee from the database
 Lets delete an employee
-![delete](https://user-images.githubusercontent.com/31370134/63966671-62641f00-cab9-11e9-93e4-80ecf4eb2b04.png)
+![6](https://github.com/abdulkadir-mhmd/Employee-Management-System/assets/92106207/b8c7b1bb-d2d3-4e5d-9295-11b6f2f9ec9d)
 
 # And afterwards, it redirects to the homepage
-![deleteAfter](https://user-images.githubusercontent.com/31370134/63966674-64c67900-cab9-11e9-90f6-08dbf912c824.png)
+![7](https://github.com/abdulkadir-mhmd/Employee-Management-System/assets/92106207/7b1a1697-6a02-4074-b7b6-b3d429fb43b7)
 
 # Mobile view
-![mobile](https://user-images.githubusercontent.com/31370134/63966685-6a23c380-cab9-11e9-95df-a6d2784d855c.png)
+![8](https://github.com/abdulkadir-mhmd/Employee-Management-System/assets/92106207/ea751766-92fe-4fa1-8b5e-0764c33b3dbf)
