@@ -1,16 +1,18 @@
 # ems
 
-# It is a simple Employee Management System
-where you can Add, Delete, Update or Search your employee's details. Since not many routes were there. Hence I have put it in controller.js with the database parameters.
+# This is a basic personnel management system 
+that allows you to search, add, delete, and update employee information. Given the scarcity of available routes. As a result, I added the database parameters to it in controller.js.
 
-To Run on your system
+
+To Run on your machine
 
 1. Clone the project
-2. Open the cmd and cd to the cloned folder's path and run npm install.
-3. type nodemon.
-4. Now open your browser and type localhost:3000
+2. Launch CMD, cd navigate to the path of the cloned folder, and execute npm install.
+3. type the command nodemon server.js.
+4. Now open your browser and type the url http://localhost:3000
+5. Hit enter
 
-And here it is
+And this is it!
 
 # The Dashboard with preview of all employees 
 ![1](https://github.com/abdulkadir-mhmd/Employee-Management-System/assets/92106207/5a1e4055-20d3-46c8-9753-181729912077)
@@ -37,5 +39,5 @@ Lets delete an employee
 # And afterwards, it redirects to the homepage
 ![7](https://github.com/abdulkadir-mhmd/Employee-Management-System/assets/92106207/7b1a1697-6a02-4074-b7b6-b3d429fb43b7)
 
-# Mobile view
+# On mobile view
 ![8](https://github.com/abdulkadir-mhmd/Employee-Management-System/assets/92106207/ea751766-92fe-4fa1-8b5e-0764c33b3dbf)
