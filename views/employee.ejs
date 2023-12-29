@@ -43,9 +43,6 @@
         </ul>
       </div>
     </div>
-
-
-
   </nav>
 
   <!-- navbar ka wuxuu ku dhamaanayaa halkan -->
@@ -81,7 +78,9 @@
                 </tr>
                 <tr>
                   <th>Salary</th>
-                  <td>Rs.<%= employee[0].salary %>/annum</td>
+                  <!-- <td>Rs.<%= employee[0].salary %>/annum</td> -->
+                  <!-- <td>USD.<%= employee[0].salary %>/year</td> -->
+                  <td>USD.<%= employee[0].salary.toLocaleString('en-US') %>/year</td>
                 </tr>
                 <tr>
                   <th>Contact Number:</th>
@@ -116,7 +115,9 @@
       <!-- button ka wuxuu ku dhamaanayaa halkan -->
 
       <!-- Badhan ka tirtira database-ka macluumaadka shaqaalaha kaydka xogta -->
-      <button type="button" class="btn btn-danger delete ">Delete</button>
+      <button type="button" class="btn btn-danger delete ">
+        Delete
+      </button>
       <!--button ends here -->
 
     </div>
