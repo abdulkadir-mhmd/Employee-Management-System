@@ -139,38 +139,51 @@
               <form method="POST" action="/">
                 <div class="form-group">
                   <label for="name"> Name</label>
-                  <input type="text" class="form-control" name="name">
+                  <!-- <input type="text" class="form-control" name="name"> -->
+                  <input type="text" class="form-control" name="name" required pattern="[A-Za-z\s]+" title="Please enter a valid name using only letters">
                 </div>
                 <div class="form-group">
                   <label for="email">Email</label>
-                  <input type="text" class="form-control" name="email">
+                  <!-- <input type="text" class="form-control" name="email"> -->
+                  <input type="email" class="form-control" name="email" required>
                 </div>
                 <div class="form-group">
                   <label for="sex">Sex</label>
-                  <select class="form-control" name="sex" id="exampleFormControlSelect1">
-                    <option>Male</option>
-                    <option>Female</option>
+                  <!-- <select class="form-control" name="sex" id="exampleFormControlSelect1"> -->
+                  <select class="form-control" name="sex" id="exampleFormControlSelect1" required>
+                    <!-- <option>Male</option>
+                    <option>Female</option> -->
+                    
+                    <option value="">Select</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
 
                   </select>
                 </div>
                 <div class="form-group">
                   <label for="name">address</label>
-                  <input type="text" class="form-control" name="address">
+                  <!-- <input type="text" class="form-control" name="address"> -->
+                  <input type="text" class="form-control" name="address" required>
                 </div>
                 <div class="form-group">
                   <label for="name">Phone</label>
-                  <input type="text" class="form-control" name="phone">
+                  <!-- <input type="text" class="form-control" name="phone"> -->
+                  <input type="text" class="form-control" name="phone" required pattern="\d+" title="Please enter a valid phone number (digits only)">
+                  <!-- <small class="text-muted">Please enter only a number.</small> -->
                 </div>
                 <div class="form-group">
                   <label for="name">Job Title</label>
-                  <input type="text" class="form-control" name="title">
+                  <!-- <input type="text" class="form-control" name="title"> -->
+                  <input type="text" class="form-control" name="title" required>
                 </div>
                 <div class="form-group">
                   <label for="name">Salary (in Dollars/annum)</label>
-                  <input type="text" class="form-control" name="salary">
+                  <!-- <input type="text" class="form-control" name="salary"> -->
+                  <input type="number" class="form-control" name="salary" required>
                   <div class="form-group">
                     <label for="location">location</label>
-                    <input type="text" class="form-control" name="location">
+                    <!-- <input type="text" class="form-control" name="location"> -->
+                    <input type="text" class="form-control" name="location" required>
                   </div>
 
                 </div>
@@ -178,9 +191,8 @@
 
 
                 <div class="modal-footer">
-                  <button class="btn btn-primary btn-block">
-                    Add
-                  </button>
+                  <!-- <button class="btn btn-primary btn-block"> Add </button> -->
+                  <button class="btn btn-primary btn-block" type="submit">Add</button>
                 </div>
               </form>
 
