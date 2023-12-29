@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/shoaibh/ems.git"
+    "url": "https://github.com/abdulkadir-mhmd/Employee-Management-System.git"
   },
-  "author": "Shoaib",
+  "author": "Abdulkadir",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shoaibh/ems/issues"
+    "url": "https://github.com/abdulkadir-mhmd/Employee-Management-System/issues"
   },
-  "homepage": "https://github.com/shoaibh/ems#readme",
+  "homepage": "https://github.com/abdulkadir-mhmd/Employee-Management-System/ems#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
     "ejs": "^2.7.4",
